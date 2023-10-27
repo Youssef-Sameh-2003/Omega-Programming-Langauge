@@ -1,0 +1,49 @@
+# Declare New Variable - this # is used for commenting code line
+
+let number = 0
+let numfloat = 0.0
+let sum = 0
+let text = "any text here"
+
+# If Condition
+
+if ( number < 5 ) then
+  ! Print text out
+  print("Great")
+  
+  ! print variable out
+  print(numfloat)
+end
+
+# While Loop
+
+while(number < 5) then
+    print("Enter number:")
+    
+    # take input as float and save it in numfloat
+    let numfloat = input_float()
+    
+    # take input as string
+    let text = input()
+    let num = input_int()
+    let numdouble = input_double()
+    
+    let sum = sum + number
+    let number = number + 1
+end
+
+# when you want it to do one statement
+func example() -> print("done") 
+
+# Multiline function
+func exampl()
+  print("1")
+  print("2")
+  print("3")
+end
+
+# Open Url
+weblib_urlopen("https://example.com")
+
+# Retrieve file from url
+weblib_urlretrieve("https://example.com/favicon.ico","favicon.ico")
