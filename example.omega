@@ -8,10 +8,10 @@ let text = "any text here"
 # If Condition
 
 if ( number < 5 ) then
-  ! Print text out
+  # Print text out
   print("Great")
   
-  ! print variable out
+  # print variable out
   print(numfloat)
 end
 
