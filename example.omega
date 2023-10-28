@@ -20,13 +20,12 @@ end
 while(number < 5) then
     print("Enter number:")
     
-    # take input as float and save it in numfloat
-    let numfloat = input_float()
+    # take input as double and save it in numdouble
+    let numdouble = input_double()
     
     # take input as string
     let text = input()
     let num = input_int()
-    let numdouble = input_double()
     
     let sum = sum + number
     let number = number + 1
@@ -43,7 +42,7 @@ func exampl()
 end
 
 # Open Url
-weblib_urlopen("https://example.com")
+weblib_urlopen("https://google.com")
 
 # Retrieve file from url
-weblib_urlretrieve("https://example.com/favicon.ico","favicon.ico")
+weblib_urlretrieve("https://google.com/favicon.ico","favicon.ico")
