@@ -19,4 +19,4 @@ testFunction()
 let d = math_cos(45)
 ```
 
-if you want a more detailed guid visit The Wiki
+if you want a more detailed guide visit The Wiki
